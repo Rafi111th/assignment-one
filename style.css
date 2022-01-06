@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-weight: 800;
+}
 section{
     display: flex;
  }
@@ -13,12 +16,13 @@ section{
     color: orange;
 }
 .half-width{
-    margin-top: 100px;
+    margin-top: 40px;
     width: 50%;
     padding-left: 10%;
     text-align: justify;
+    border-bottom: 20px;
 }
-
+section h2{ font-weight: 900;}
 .half-width img{
     width:70%;
 }
@@ -30,6 +34,7 @@ section{
     font-weight: 500;
     border-radius: 6px;
 }
+
 
 #focus-on{
     padding-left: 20px;
@@ -63,6 +68,8 @@ section{
 #wheit{
     background-color: rgba(241, 243, 101, 0.938);
 }
+
+
 footer div {
     padding-top: 15px;
     width: 100%;
